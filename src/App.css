@@ -14,36 +14,45 @@ html, body, #root {
 
 /* Espaço para evitar que o conteúdo fique na frente do header e do footer */
 .content {
-  flex: 1;
   margin-top: 20px; /* é a posição em que o Texto, ao subir, fique atrás do header */
-  margin-left: 25px;
+  margin-left: 25px; /* margem esquerda da div-home /*
   margin-bottom: 15px; /* é a posição em que o Texto, ao descer, fique atrás do footer */
-  overflow-y: auto;
-  text-align:left;
+  overflow-y: auto; /* fixa a header e o foote na tela para não deixar subir ao usar a barra de rolagem */
+  
 }
 
                /*ESTILO DA PÁGINA HOME */
  /*posiciona a imagem-home na parte superior à esquerda do componente Texto na App.jsx */
 .div-home {
-  display: flex;
-  flex-direction:row-reverse;
-  align-items:flex-start;
-  justify-content:left;
+  display:flex; /* permite deixar os elementos soltos na tela para posicioná-los com outras propriedades */
+  flex-direction:row-reverse; /* posiciona a imagem superior-esquerda da tela */
+  align-items:self-start; /* posiciona a imagem superior-esquerda da tela  (flex-start: fixa e posiciona imagem superior esquerda da tela, end: posiciona à esquerda final da tela, mas não fixa a imagem,  )   */ 
+  justify-content:left; /* posiciona a div-home e imagem à esquerda da tela */
   gap: 2px;
   margin-left: -30px;
   
+ 
 }
 
 .figure-home {   /* fixa a figure-home na App.jsx  */
-  position: sticky;
+  position: sticky; /* fixa a figura para não subir na tela quando usar a barra de rolagem */
   top: 40px; /* Distância do topo da tela */
 
 }
 
-.imagem-home {     /*tamanho do imagem-home */ 
+.imagem1-home {     /*tamanho do imagem-home */ 
     width: 250px;
     height: auto;
 }
+.imagem2-home {
+  height: auto;
+  position: fixed;
+  bottom: 100px;   /* posiciona imagem na vertical direita da tela*/
+  right: 60px;   /* posiciona imagem na horizontal inferior da tela */
+  width: 250px;   /* tamanho da imagem  */
+  z-index: 1000;
+}
+
 
 
                  /*ESTILO DA PÁGINA CONTATOS */

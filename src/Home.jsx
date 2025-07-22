@@ -8,7 +8,8 @@ const Home = () => {
      <div className="div-home">
       <TextoHome />
       <figure className='figure-home'>
-        <img src={Development} alt="Imagem de home" className='imagem-home' />
+        <img src={Development} alt="Imagem de home" className='imagem1-home' />
+         <img src={Development} alt="Imagem de home" className='imagem2-home' />
       </figure>
     </div>
   )
