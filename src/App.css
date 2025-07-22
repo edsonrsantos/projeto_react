@@ -34,16 +34,15 @@ html, body, #root {
   
 }
 
-/*tamanho do imagem-home */
-.imagem-home {
-    width: 250px;
-    height: auto;
-}
-
 .figure-home {   /* fixa a figure-home na App.jsx  */
   position: sticky;
   top: 40px; /* Distância do topo da tela */
 
+}
+
+.imagem-home {     /*tamanho do imagem-home */ 
+    width: 250px;
+    height: auto;
 }
 
 
@@ -59,17 +58,16 @@ html, body, #root {
   
 }
 
-
-.imagem-contatos {   /*tamanho do imagem-home */
-    width: 250px;
-    height: auto;
-}
-
 .figure-contatos {  /* fixa a figure-home na App.jsx  */ 
   position: sticky;
   top: 40px;       /* Distância do topo da tela */
  
  }
+
+ .imagem-contatos {   /*tamanho do imagem-contatos */
+    width: 250px;
+    height: auto;
+}
 
 
              /*ESTILO DA PÁGINA SOBRE */
@@ -81,17 +79,36 @@ html, body, #root {
   justify-content:left;
   gap: 2px;
   margin-left: -30px;
-  
-}
+ }
+
+.figure-sobre {  /* fixa a figure-sobre na App.jsx  */ 
+  position: sticky;
+  top: 40px;       /* Distância do topo da tela */
+ 
+ }
 
  .imagem-sobre {    /*tamanho do imagem-sobre */
     width: 250px;
     height: auto;
 }
+ 
 
-.figure-sobre {   /* fixa a figure-home na App.jsx  */
+ .div-produtos {  /*posiciona a imagem-sobre na parte superior à esquerda do componente Texto na App.jsx */   
+  display: flex;
+  flex-direction:row-reverse;
+  align-items:flex-start;
+  justify-content:left;
+  gap: 2px;
+  margin-left: -30px;
+ 
+}
+.figure-produtos {   /* fixa a figure-home na App.jsx  */
   position: sticky;
   top: 40px; /* Distância do topo da tela */
  
  }
 
+.imagem-produtos {    /*tamanho do imagem-produtos */
+    width: 250px;
+    height: auto;
+}

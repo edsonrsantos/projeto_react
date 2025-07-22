@@ -1,12 +1,11 @@
-import React from 'react'
 import Styles from './estilos.module.css'
 
 
-const textoSobre = () => {
+const textoprodutos = () => {
+ 
   return (
- <div className= {Styles.divtextosobre}>
-
-     <h2>Texto Sobre</h2>
+     <div className={Styles.divtextoprodutos}>
+      <h2>Texto do Produtos</h2>
      <p>çsfkasçlfkç~lksdfsdfasfasdffsfafasdfasdasfsdfsdfsdfasdfadfasdfasdfasfasdfasdfasdfasdfsdfasdfasdfasdsdfas</p>
      <p>çsfkasçlfkç~lksdfsdfasfasdffsfasdfasdfasdfasdffasdfasdfasdfasdfasdfasdfasfasfdfasdfasfasdfdssdfsdfafsdfas</p>
      <p>çsfkasçlfkç~lksdfsdfasfasdffsfasdfasdfasdfasdfsdfsdfasdfdsfasfasfasfasdfasdfasfasfasfasfsdfaslhglklfasdfsas</p>
@@ -23,11 +22,10 @@ const textoSobre = () => {
      <p>çsfkasçlfkç~lksdfsdfasfasdffsfasdfasdfasdfasdfsdfsdfasdfasfasdfasdfasdfasdfsdfasdfasdfasdfsdfsdfasdfasas</p>
      <p>çsfkasçlfkç~lksdfsdfasfasdffsfasdfasdfasdfasdfsdfsdfasdasfasdfasdfasdfasdfsdfasdfasdfasdfsdfsdfasdfasfas</p>
      <p>çsfkasçlfkç~lksdfsdfasfasdffsfasdfasdfasdfasdfsdfsdfasdasfasdfasdfasdfasdfsdfasdfasdfasdfsdfsdfasdfasfas</p>
-
-
-
- </div>
+ 
+  
+   </div>
   )
 }
 
-export default textoSobre
+export default textoprodutos

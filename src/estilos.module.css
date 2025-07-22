@@ -46,12 +46,50 @@
   background-color: #f9f9f9;       /* Fundo suave */
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra leve */
   transition: transform 0.3s ease;
-
-
 }
 
+.divtextocontato{
 
+background-color: #f6f8f9;
+  width: 800px;
+  text-align: center; /* centraliza o componente textohome dentro da divtextohome */
 
+  /* Insere uma borda no componente TextoHome */
+  border: 3px solid #8c8c8d;       /* Cor azul bonita */
+  border-radius: 16px;             /* Cantos arredondados */
+  padding: 20px;                   /* Espaço interno */
+  background-color: #f9f9f9;       /* Fundo suave */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra leve */
+  transition: transform 0.3s ease;
+}
+
+.divtextosobre{
+background-color: #f6f8f9;
+  width: 800px;
+  text-align: center; /* centraliza o componente textohome dentro da divtextohome */
+
+  /* Insere uma borda no componente TextoHome */
+  border: 3px solid #8c8c8d;       /* Cor azul bonita */
+  border-radius: 16px;             /* Cantos arredondados */
+  padding: 20px;                   /* Espaço interno */
+  background-color: #f9f9f9;       /* Fundo suave */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra leve */
+  transition: transform 0.3s ease;
+}
+
+.divtextoprodutos{
+background-color: #f6f8f9;
+  width: 800px;
+  text-align: center; /* centraliza o componente textohome dentro da divtextohome */
+
+  /* Insere uma borda no componente TextoHome */
+  border: 3px solid #8c8c8d;       /* Cor azul bonita */
+  border-radius: 16px;             /* Cantos arredondados */
+  padding: 20px;                   /* Espaço interno */
+  background-color: #f9f9f9;       /* Fundo suave */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra leve */
+  transition: transform 0.3s ease;
+}
 
 
 

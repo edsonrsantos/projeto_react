@@ -1,14 +1,14 @@
-import React from 'react'
-import Header from './Header'
-import Footer from './Footer'
-import {Link} from 'react-router-dom'
+import Textoprodutos from './textoprodutos'
+import products from './img/products.svg'
 
 const Produtos = () => {
   return (
-    <div>
+    <div className='div-produtos'>
+        <Textoprodutos/>
+        <figure className='figure-produtos'>
+             <img src={products} alt="Imagem de produtos" className='imagem-produtos' />
+         </figure>
         
-        <h1>Produtos</h1>
-        <Link to={"/"}>Home</Link>
         
       </div>
 )

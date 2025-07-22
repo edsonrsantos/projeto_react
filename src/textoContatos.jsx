@@ -1,8 +1,9 @@
 import React from 'react'
+import Styles from './estilos.module.css'
 
 const textoContatos = () => {
   return (
- <div>
+ <div className={Styles.divtextocontato}>
 
      <h2>Texto do Contatos</h2>
      <p>çsfkasçlfkç~lksdfsdfasfasdffsfafasdfasdasfsdfsdfsdfasdfadfasdfasdfasfasdfasdfasdfasdfsdfasdfasdfasdsdfas</p>
