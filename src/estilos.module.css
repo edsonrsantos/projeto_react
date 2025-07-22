@@ -1,0 +1,59 @@
+
+.header{  /* centralizar o componente de menu dentro da header */
+    display:flex; /* deixa os itens soltos dentro da div para serem posicionados com outras propriedades: justify-content: center , align-items: center */
+    background-color: red;
+    justify-content: center; /* centraliza no meio, os itens do menu da header */
+    align-items: center;   /* centraliza na vertical, os itens do menu dentro da header */  
+}
+
+.footer{
+    background-color: red;
+    text-align: center;  /* centraliza o texto dentro do Footer */
+    }
+
+/* Estilo padrão dos links */
+.link {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  padding: 8px 12px;
+  transition: all 0.3s ease;
+}
+
+/* Hover - ao passar o mouse */
+.link:hover {
+  color: #0056b3;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+}
+
+/* Ao clicar o mouse no link, deixa o ele pintado na cor azul e fonte #ffffffff "ativo" */
+.active {
+  color: #ffffff;
+  background-color: #007bff;
+  border-radius: 4px;
+  font-weight: bold;
+}
+.divtextohome{
+  background-color: #f6f8f9;
+  width: 800px;
+  text-align: center; /* centraliza o componente textohome dentro da divtextohome */
+
+  /* Insere uma borda no componente TextoHome */
+  border: 3px solid #8c8c8d;       /* Cor azul bonita */
+  border-radius: 16px;             /* Cantos arredondados */
+  padding: 20px;                   /* Espaço interno */
+  background-color: #f9f9f9;       /* Fundo suave */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra leve */
+  transition: transform 0.3s ease;
+
+
+}
+
+
+
+
+
+
+
+

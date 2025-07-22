@@ -1,0 +1,97 @@
+
+
+/* Garante que o layout ocupe toda a altura da tela */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* Espaço para evitar que o conteúdo fique na frente do header e do footer */
+.content {
+  flex: 1;
+  margin-top: 20px; /* é a posição em que o Texto, ao subir, fique atrás do header */
+  margin-left: 25px;
+  margin-bottom: 15px; /* é a posição em que o Texto, ao descer, fique atrás do footer */
+  overflow-y: auto;
+  text-align:left;
+}
+
+               /*ESTILO DA PÁGINA HOME */
+ /*posiciona a imagem-home na parte superior à esquerda do componente Texto na App.jsx */
+.div-home {
+  display: flex;
+  flex-direction:row-reverse;
+  align-items:flex-start;
+  justify-content:left;
+  gap: 2px;
+  margin-left: -30px;
+  
+}
+
+/*tamanho do imagem-home */
+.imagem-home {
+    width: 250px;
+    height: auto;
+}
+
+.figure-home {   /* fixa a figure-home na App.jsx  */
+  position: sticky;
+  top: 40px; /* Distância do topo da tela */
+
+}
+
+
+                 /*ESTILO DA PÁGINA CONTATOS */
+/*posiciona a imagem-contatos na parte superior à esquerda do componente Texto na App.jsx */
+.div-contatos {
+  display: flex;
+  flex-direction:row-reverse;
+  align-items:flex-start;
+  justify-content:left;
+  gap: 2px;
+  margin-left: -30px;
+  
+}
+
+
+.imagem-contatos {   /*tamanho do imagem-home */
+    width: 250px;
+    height: auto;
+}
+
+.figure-contatos {  /* fixa a figure-home na App.jsx  */ 
+  position: sticky;
+  top: 40px;       /* Distância do topo da tela */
+ 
+ }
+
+
+             /*ESTILO DA PÁGINA SOBRE */
+            
+.div-sobre {  /*posiciona a imagem-sobre na parte superior à esquerda do componente Texto na App.jsx */   
+  display: flex;
+  flex-direction:row-reverse;
+  align-items:flex-start;
+  justify-content:left;
+  gap: 2px;
+  margin-left: -30px;
+  
+}
+
+ .imagem-sobre {    /*tamanho do imagem-sobre */
+    width: 250px;
+    height: auto;
+}
+
+.figure-sobre {   /* fixa a figure-home na App.jsx  */
+  position: sticky;
+  top: 40px; /* Distância do topo da tela */
+ 
+ }
+
